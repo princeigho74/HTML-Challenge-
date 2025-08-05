@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Fun Feature Showcase</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f0f8ff;
+      color: #333;
+      padding: 20px;
+    }
+    h1, h2 {
+      text-align: center;
+      color: #2c3e50;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 20px 0;
+    }
+    th, td {
+      padding: 12px;
+      text-align: center;
+      border: 1px solid #ddd;
+    }
+    th {
+      background-color: #2980b9;
+      color: white;
+    }
+    tr:nth-child(even) {
+      background-color: #f9f9f9;
+    }
+    .lists {
+      display: flex;
+      justify-content: space-around;
+      margin: 40px 0;
+    }
+    .lists ul, .lists ol {
+      width: 45%;
+      background-color: #fefefe;
+      padding: 20px;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+    }
+    .images {
+      display: flex;
+      justify-content: space-around;
+      margin-top: 30px;
+    }
+    .images img {
+      max-width: 30%;
+      border-radius: 10px;
+      box-shadow: 2px 2px 12px rgba(0,0,0,0.1);
+    }
+  </style>
+</head>
+<body>
+
+  <h1>🌟 Welcome to the Fun Feature Showcase! 🌟</h1>
+
+  <h2>💸 Our Pricing Plans</h2>
+  <table>
+    <tr>
+      <th>Plan</th>
+      <th>Features</th>
+      <th>Price</th>
+    </tr>
+    <tr>
+      <td>Basic</td>
+      <td>Access to core features</td>
+      <td>Free</td>
+    </tr>
+    <tr>
+      <td>Pro</td>
+      <td>Everything in Basic + Analytics</td>
+      <td>$9.99/month</td>
+    </tr>
+    <tr>
+      <td>Ultimate</td>
+      <td>Pro features + Priority Support</td>
+      <td>$19.99/month</td>
+    </tr>
+  </table>
+
+  <h2>🧠 Creative Lists</h2>
+  <div class="lists">
+    <ul>
+      <strong>Top 5 Productivity Hacks:</strong>
+      <li>Use a timer (Pomodoro)</li>
+      <li>Declutter your desk</li>
+      <li>Plan your day the night before</li>
+      <li>Take screen breaks</li>
+      <li>Batch similar tasks</li>
+    </ul>
+
+    <ol>
+      <strong>Steps to Make a Great Cup of Coffee:</strong>
+      <li>Boil filtered water</li>
+      <li>Grind fresh coffee beans</li>
+      <li>Add coffee to your French press</li>
+      <li>Pour in hot water</li>
+      <li>Stir, wait 4 mins, press, enjoy!</li>
+    </ol>
+  </div>
+
+  <h2>📸 Explore Our Visuals</h2>
+  <div class="images">
+    <img src="https://via.placeholder.com/300x200" alt="A scenic view of mountains during sunrise" />
+    <img src="https://via.placeholder.com/300x200" alt="A desk setup with a laptop and a coffee cup" />
+    <img src="https://via.placeholder.com/300x200" alt="An illustrated infographic of pricing plans" />
+  </div>
+
+</body>
+</html>
